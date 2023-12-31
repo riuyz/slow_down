@@ -7,7 +7,7 @@ const slow_down = async () => {
     document.body.style.margin = "350px"
     document.body.style.verticalAlign = "middle"
     document.body.innerHTML = "Remit not paucity!"
-    await delay(5000);
+    await delay(50000);
     document.body.style = style
     document.body.innerHTML = body
 };
